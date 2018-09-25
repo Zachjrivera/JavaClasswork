@@ -15,8 +15,13 @@ public class Main {
         for (Employee e:workers) {
 
             System.out.println("The"+ e.getClass().getSimpleName()+ " earned " + e.payCheck());
+
         }
 
+        salaryEmployee.setBonus(50.00);
+
+        System.out.println(salaryEmployee.bonusAlert(salaryEmployee));
+        System.out.println(salaryEmployee.printEmployeesFullName(salaryEmployee));
         //===========================================================
     }
 }
