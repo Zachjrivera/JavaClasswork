@@ -10,8 +10,8 @@ public double basesalary;
     }
 
     @Override
-    public String payCheck(){
-        return "The BaseplusEmployee earned " + (commissionRate * grossSales+basesalary);
+    public double payCheck(){
+        return commissionRate * grossSales+basesalary;
     }
 
 }

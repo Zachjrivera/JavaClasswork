@@ -12,8 +12,8 @@ public class SalariesEmployee extends Employee {
 
 
     @Override
-    public  String payCheck(){
-        return "The SalariedEmployee earned "+ weeklySalary;
+    public  double payCheck(){
+        return  weeklySalary;
     }
 
 

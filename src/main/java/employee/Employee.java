@@ -14,9 +14,9 @@ public class Employee {
         this.employeeID = employeeID;
     }
 
-    public String payCheck()
+    public double payCheck()
     {
-        return " ";
+        return 0;
     }
 
 }

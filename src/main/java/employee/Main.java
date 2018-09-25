@@ -12,7 +12,7 @@ public class Main {
 
         for (Employee e:workers) {
 
-            System.out.println(e.payCheck());
+            System.out.println("The"+ e.getClass().getSimpleName()+ " earned " + e.payCheck());
         }
 
         //===========================================================

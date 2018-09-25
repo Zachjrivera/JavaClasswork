@@ -12,8 +12,8 @@ public class CommisionedEmployee extends Employee{
     }
 
     @Override
-    public String payCheck(){
-        return "The CommishionedEmployee earned "+ commissionRate*grossSales;
+    public double payCheck(){
+        return  commissionRate*grossSales;
     }
 
 
