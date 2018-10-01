@@ -1,6 +1,6 @@
 package employee;
 
-public class BasePlusEmpolyee extends CommisionedEmployee {
+public class BasePlusEmpolyee extends CommisionedEmployee implements IPayable {
 
 public double basesalary;
 
@@ -14,4 +14,7 @@ public double basesalary;
         return commissionRate * grossSales+basesalary;
     }
 
+    public String pay() {
+        return "Gimmie the loot";
+    }
 }

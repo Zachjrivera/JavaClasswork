@@ -1,6 +1,6 @@
 package employee;
 
-public class CommisionedEmployee extends Employee{
+public class CommisionedEmployee extends Employee implements  IPayable{
         protected double grossSales;
         protected double commissionRate;
 
@@ -17,9 +17,7 @@ public class CommisionedEmployee extends Employee{
     }
 
 
-
-
-
-
-
+    public String pay() {
+        return"Fuck biteches get money";
+    }
 }

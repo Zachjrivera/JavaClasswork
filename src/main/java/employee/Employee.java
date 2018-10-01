@@ -3,7 +3,7 @@ package employee;
 import com.sun.xml.internal.ws.api.ha.StickyFeature;
 import org.omg.PortableInterceptor.ServerRequestInfo;
 
-public class Employee {
+public abstract class Employee {
     private String firstName;
     private String lastName;
     private double employeeID;
