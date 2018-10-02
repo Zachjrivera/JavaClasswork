@@ -35,8 +35,7 @@ public class Main {
         }
 
 
-
-
+        System.out.println(((CommisionedEmployee) commishionEmployee).pay()+ " " + ((CommisionedEmployee) commishionEmployee).printPaycheck());
         //===========================================================
     }
 }

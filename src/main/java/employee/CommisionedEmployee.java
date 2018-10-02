@@ -1,6 +1,6 @@
 package employee;
 
-public class CommisionedEmployee extends Employee implements  IPayable{
+public class CommisionedEmployee extends Employee implements  IPayable,IPrint{
         protected double grossSales;
         protected double commissionRate;
 
@@ -19,5 +19,10 @@ public class CommisionedEmployee extends Employee implements  IPayable{
 
     public String pay() {
         return"Fuck biteches get money";
+    }
+
+
+    public String printPaycheck() {
+        return " Prints the pay check";
     }
 }
